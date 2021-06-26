@@ -1,0 +1,318 @@
+/* -----------------------------------------------------------------Basic HTML Styles----------------------------------------------------------------*/   
+body { 
+    font-family: 'Montserrat', sans-serif;  
+    position: static; 
+    background-color: black;
+}   
+
+h1 { 
+    font-size: 50px; 
+    font-weight: 600; 
+    color: white;
+} 
+
+.container-fluid { 
+    padding:0; 
+    margin: 0;
+}
+
+.btn-xlarge {
+    padding: 18px 28px;
+    font-size: 22px; 
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
+
+ /* -----------------------------------------------------------------Navbar Styles----------------------------------------------------------------*/  
+.logo-text { 
+    font-family: 'Montserrat Alternates', sans-serif; 
+    font-size: 28px;
+}
+ 
+#nav-bar { 
+    position: sticky; 
+    top: 0; 
+    z-index: 10; 
+} 
+
+.navbar { 
+    background-image: linear-gradient(to right, #C72C41, #2D132C); 
+} 
+
+.nav-link { 
+    font-size: 18px;
+} 
+
+.nav-link { 
+    padding: 0 10px; 
+    color: white; 
+} 
+
+/* ----------------------------------------------------------------Landing Page Styles---------------------------------------------------------------- */ 
+#landing-page { 
+    background-image: linear-gradient(to right, #C72C41, #2D132C);   
+    padding-top:5%; 
+    color:white;
+} 
+
+.promo-title { 
+    font-size: 4vw; 
+    font-weight: 700px; 
+    margin-top: 100px; 
+    line-height: 1.25; 
+    margin-left: 100px; 
+}   
+
+  @media screen and (max-width: 600px) {
+    .promo-title {
+      font-size: 60px;
+    }
+  }
+
+
+
+
+.landing-subtitle { 
+    font-size: 18px; 
+    line-height: 1.5; 
+    margin-left: 100px; 
+} 
+  
+.mockup {  
+    margin-top: 80px;
+    width: 400px; 
+}
+ 
+.mockup-2 {  
+    position: relative;
+    z-index: -20; 
+    margin-top: 80px;
+    width: 600px;
+}  
+
+@media (max-width: 1080px) {   
+    .mockup {  
+        position: relative;  
+        text-align: center; 
+        z-index: -5;
+    }
+}  
+
+@media (max-width: 1080px) {   
+    .mockup-2 {  
+        position: relative;  
+        text-align: center; 
+        z-index: 1;
+    }
+} 
+
+.bottom-img { 
+    width: 20px; 
+    color: white; 
+} 
+
+/* ----------------------------------------------------------------Features Styles---------------------------------------------------------------- */  
+#features { 
+    padding: 30px 0px;   
+    padding-top: 0px;
+}  
+
+.row { 
+    margin:0px 50px;
+} 
+
+.features { 
+    padding: 0px 80px 40px;  
+    text-align: center; 
+}  
+ 
+.features h4{ 
+    font-size: 36px; 
+    text-align: center; 
+} 
+
+.features p{ 
+    font-size: 20px; 
+    text-align: center;
+}  
+
+.features img{  
+    width:150px; 
+    margin: 0px 10px;  
+    margin-bottom: 70px;
+    text-align: center;  
+}  
+
+@media (max-width: 1480px) { 
+    .features img{  
+        position: static;   
+    }  
+} 
+  
+.features-subtitle {  
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 65px;
+    margin-bottom: 60px; 
+    font-weight: 600;   
+    color: white;
+}  
+
+
+/* ----------------------------------------------------------------Our Vision Styles---------------------------------------------------------------- */   
+  
+#our-vision { 
+    background-color: whitesmoke; 
+    margin-top:200px; 
+    margin-bottom:100px;
+} 
+
+#our-vision h1 { 
+    font-weight: 600; 
+    font-size: 65px;
+} 
+
+.vid { 
+    padding-left:50px;
+} 
+
+.vid{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .vid iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+.vision-image { 
+    width:100%;
+}  
+
+#our-vision p { 
+    line-height: 1.6;
+}
+
+/* ----------------------------------------------------------------Parallax-1 Image---------------------------------------------------------------- */   
+ 
+.parallax-1 { 
+    background:url(https://images8.alphacoders.com/108/thumb-1920-1081027.jpg) no-repeat center;
+    background-size: cover; 
+    background-attachment: fixed; 
+    height: 500px; 
+    padding: 15% 0;
+} 
+
+/* ----------------------------------------------------------------Meet the Team Styles---------------------------------------------------------------- */    
+  
+#meet-team { 
+    padding: 7% 15%; 
+    text-align: center; 
+    background-image: linear-gradient(to right, #C72C41, #2D132C);   
+    color:white;   
+}
+ 
+#meet-team h1 { 
+    padding: 10px; 
+    padding: auto; 
+    font-weight: 600;  
+    font-size: 65px; 
+    margin-bottom: 30px;
+} 
+ 
+#meet-team h2 { 
+    padding: 0px 10px; 
+    padding: auto; 
+    margin-top: 40px; 
+    font-size: 40px;
+}   
+
+#meet-team h4 { 
+    line-height: 1.5;
+}  
+
+#meet-team p { 
+    font-size: 20px;  
+    font-family: 'Montserrat', sans-serif; 
+    font-style: italic;
+}
+ 
+.team-members {   
+    width: 300px;
+    border-radius: 50%; 
+    margin:20px;
+}  
+
+ /* ----------------------------------------------------------------Parallax-2 Image---------------------------------------------------------------- */   
+ 
+.parallax-2 { 
+    background:url(https://i.redd.it/wngvcs4mjot31.png) no-repeat center;
+    background-size: cover; 
+    background-attachment: fixed; 
+    height: 500px; 
+    padding: 15% 0;
+} 
+
+ /* ----------------------------------------------------------------Download---------------------------------------------------------------- */    
+  
+ .download-text {  
+     margin-top: 200px;
+     text-align: center; 
+     font-size: 50px; 
+     font-weight: 600;
+ } 
+
+ .download-section { 
+   padding:auto; 
+ } 
+
+ .download-button-1 { 
+    margin-right: 20px;  
+    margin-top: 50px;    
+    background-color:#2D132C;  
+    margin-bottom: 100px; 
+ } 
+
+ .download-button-2 { 
+    margin-right: 20px;  
+    margin-top: 50px; 
+    background-color:#C72C41;  
+    margin-bottom: 100px;  
+ } 
+ 
+ /* ---------------------------------------------------------------- Footer ---------------------------------------------------------------- */    
+
+ #footer { 
+     background-color: whitesmoke; 
+     color: white; 
+     text-align: center
+ } 
+ 
+.social-icons img { 
+    width: 60px; 
+    transition: 0.5s; 
+    text-align: center;
+} 
+
+.social-icons :hover img { 
+    transform: translateY(-10px);
+}
+ 
+.footer-bot { 
+    background-image: linear-gradient(to right, #C72C41, #2D132C);  
+} 
+
+.copyright { 
+    text-align: start; 
+    background-image: linear-gradient(to right, #C72C41, #2D132C);  
+    padding-left:5px; 
+    margin:0;
+}  
+
+

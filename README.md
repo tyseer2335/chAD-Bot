@@ -1,7 +1,7 @@
 # EngHack2021 project: chAD
 
 <p align="center">
-<img src="img/logo.png" alt="chAD logo" height=300>
+<img src="images/chadcoin.png" alt="chAD logo" height=300>
 </p>
 
 # Table of Contents
